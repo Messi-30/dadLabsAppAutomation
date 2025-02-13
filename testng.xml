@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="dadLabs Mobile Automation Suite">
+    <listeners>
+        <listener class-name="com.dadlabs.utility.TestListener"></listener>
+    </listeners>
+    <!--
+  <test name="Android Emulator">
+
+        <parameter name="emulator" value="true"></parameter>
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="platformVersion" value="12"></parameter>
+        <parameter name="udid" value="emulator-5554"></parameter>
+        <parameter name="deviceName" value="Pixel 6"></parameter>
+        <parameter name="systemPort" value="10000"></parameter>
+        <parameter name="chromeDriverPort" value="11000"></parameter>
+        <classes>
+            <class name="com.dadlabs.tests.LandingPageTest" />
+        </classes>
+    </test>
+    -->
+    <test name="Android device">
+
+        <parameter name="emulator" value="false"></parameter>
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="platformVersion" value="14"></parameter>
+        <parameter name="udid" value="192.168.0.135:5555"></parameter>
+        <parameter name="deviceName" value="OnePlus Nord 2T 5G"></parameter>
+        <parameter name="systemPort" value="10003"></parameter>
+        <parameter name="chromeDriverPort" value="11003"></parameter>
+        <classes>
+            <class name="com.dadlabs.tests.LandingPageTest" />
+        </classes>
+    </test>
+  <!--  <test name="Android device Redmi">
+
+        <parameter name="emulator" value="false"></parameter>
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="platformVersion" value="11"></parameter>
+        <parameter name="udid" value="CEAE69U8E65PPZEI"></parameter>
+        <parameter name="deviceName" value="Redmi Note 11T 5G"></parameter>
+        <parameter name="systemPort" value="10002"></parameter>
+        <parameter name="chromeDriverPort" value="11002"></parameter>
+        <classes>
+            <class name="com.dadlabs.tests.LandingPageTest" />
+        </classes>
+    </test>-->
+    <!-- Test -->
+    <!--<test name="iOS">
+        <parameter name="simulator" value="false"></parameter>
+        <parameter name="platformName" value="iOS"></parameter>
+        <parameter name="platformVersion" value="13"></parameter>
+        <parameter name="udid" value="192.168.0.135:5555"></parameter>
+        <parameter name="deviceName" value="iPhone 11"></parameter>
+        <parameter name="wdaLocalPort" value="10001"></parameter>
+        <parameter name="webkitDebugProxyPort" value="11001"></parameter>
+        <classes>
+            <class name="com.dadlabs.tests.HomePageTest" />
+        </classes>
+    </test>-->
+</suite> <!-- Suite -->

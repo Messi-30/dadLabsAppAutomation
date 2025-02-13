@@ -1,0 +1,10 @@
+{
+  "invalidOTP": {
+    "mobileNo": "9769025646",
+    "OTP": "126532"
+  },
+  "ValidOTP": {
+    "mobileNo": "9987731025",
+    "OTP": "123456"
+  }
+}

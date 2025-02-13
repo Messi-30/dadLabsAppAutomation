@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="dadLabs Mobile Automation Suite" duration-ms="21237" started-at="2023-05-26T07:01:22Z" finished-at="2023-05-26T07:01:43Z">
+    <groups>
+    </groups>
+    <test name="Android Emulator" duration-ms="21237" started-at="2023-05-26T07:01:22Z" finished-at="2023-05-26T07:01:43Z">
+      <class name="com.dadlabs.tests.LandingPageTest">
+        <test-method status="PASS" signature="startAppiumServer()[pri:0, instance:com.dadlabs.tests.LandingPageTest@290d210d]" name="startAppiumServer" is-config="true" duration-ms="11341" started-at="2023-05-26T07:01:11Z" finished-at="2023-05-26T07:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppiumServer -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dadlabs.tests.LandingPageTest@290d210d]" name="setup" is-config="true" duration-ms="19905" started-at="2023-05-26T07:01:22Z" finished-at="2023-05-26T07:01:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pixel 6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.dadlabs.tests.LandingPageTest@290d210d]" name="setup" is-config="true" duration-ms="111" started-at="2023-05-26T07:01:42Z" finished-at="2023-05-26T07:01:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dadlabs.tests.LandingPageTest.skipGuideInfoOnLandingPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="skipGuideInfoOnLandingPageTest()[pri:0, instance:com.dadlabs.tests.LandingPageTest@290d210d]" name="skipGuideInfoOnLandingPageTest" duration-ms="1197" started-at="2023-05-26T07:01:42Z" finished-at="2023-05-26T07:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipGuideInfoOnLandingPageTest -->
+        <test-method status="PASS" signature="quiteDriver()[pri:0, instance:com.dadlabs.tests.LandingPageTest@290d210d]" name="quiteDriver" is-config="true" duration-ms="1" started-at="2023-05-26T07:01:43Z" finished-at="2023-05-26T07:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+        <test-method status="PASS" signature="stopAppiumServer()[pri:0, instance:com.dadlabs.tests.LandingPageTest@290d210d]" name="stopAppiumServer" is-config="true" duration-ms="66" started-at="2023-05-26T07:01:43Z" finished-at="2023-05-26T07:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+      </class> <!-- com.dadlabs.tests.LandingPageTest -->
+    </test> <!-- Android Emulator -->
+  </suite> <!-- dadLabs Mobile Automation Suite -->
+</testng-results>

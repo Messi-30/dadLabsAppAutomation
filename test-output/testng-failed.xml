@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [dadLabs Mobile Automation Suite]">
+  <listeners>
+    <listener class-name="com.dadlabs.utility.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Android Emulator(failed)">
+    <parameter name="emulator" value="true"/>
+    <parameter name="platformVersion" value="12"/>
+    <parameter name="chromeDriverPort" value="11000"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="deviceName" value="Pixel 6"/>
+    <parameter name="systemPort" value="10000"/>
+    <classes>
+      <class name="com.dadlabs.tests.LandingPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="startAppiumServer"/>
+          <include name="quiteDriver"/>
+          <include name="setup"/>
+          <include name="skipGuideInfoOnLandingPageTest"/>
+          <include name="stopAppiumServer"/>
+        </methods>
+      </class> <!-- com.dadlabs.tests.LandingPageTest -->
+    </classes>
+  </test> <!-- Android Emulator(failed) -->
+</suite> <!-- Failed suite [dadLabs Mobile Automation Suite] -->
